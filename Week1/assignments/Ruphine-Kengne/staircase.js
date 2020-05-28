@@ -2,7 +2,7 @@
 
 const staircase = num => {
     let spaces = ' ';
-    for (let i = 0; i <= num; i++){
+    for (let i = 1; i <= num; i++){   //removing  the first line of empty spaces
         console.log(spaces.repeat(num-i) + '#'.repeat(i) )
     }
     return '';
